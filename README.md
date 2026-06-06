@@ -1,3 +1,4 @@
+MADE USING CLAUDE OPUS 4.8
 # Lock Screen Button
 
 A minimal GNOME Shell extension that adds a **padlock icon** to the top panel, next to the system menu. Click it to instantly lock your screen — the same lock action as the built-in system menu, just one click away.
