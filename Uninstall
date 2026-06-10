@@ -1,0 +1,7 @@
+Run the following commands in terminal to uninstall the extension:
+
+>>>
+UUID=Lockscreen42-LMAYSASH
+gnome-extensions disable $UUID
+rm -rf ~/.local/share/gnome-shell/extensions/$UUID
+>>>
