@@ -1,0 +1,18 @@
+STEP 1 -------------
+*Open a terminal in the directory where the zip file is located and copy-paste :
+
+>>>
+UUID="Lockscreen42-LMAYSASH"
+unzip Desktop/Lockscreen42-LMAYSASH.zip -d ~/.local/share/gnome-shell/extensions/$UUID
+mkdir -p ~/.local/share/gnome-shell/extensions/$UUID
+cp metadata.json extension.js ~/.local/share/gnome-shell/extensions/$UUID/
+>>>
+
+STEP 2 -------------
+*Log out
+*Log in
+*copy-paste the following in a terminal :
+
+>>>
+gnome-extensions enable Lockscreen42-LMAYSASH
+>>>
